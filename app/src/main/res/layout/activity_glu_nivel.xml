@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityGluNivel"
+    android:background="@drawable/backgro">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:text="Nivel de Glucemia:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="84dp"
+        android:fontFamily="@font/light"
+        android:textColor="@color/negro"
+        android:textSize="25sp"
+        android:alpha="0.8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.091" />
+
+    <EditText
+        android:id="@+id/editTextNivelGlu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="65dp"
+        android:layout_y="250dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="284dp"
+        android:layout_y="261dp"
+        android:text="mmol/L" />
+
+    <Button
+        android:id="@+id/btnTipoCDiab"
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:layout_x="107dp"
+        android:layout_y="430dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/semibold"
+        android:onClick="ValidarTipoCD"
+        android:text="Tipo de cuadro diabético"
+        android:textAllCaps="false"
+        android:textColor="@color/blanco"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="611dp"/>
+</AbsoluteLayout>

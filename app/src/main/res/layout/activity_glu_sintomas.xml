@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityGluSintomas"
+    android:background="@drawable/backgro">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:text="Sintomas presentados:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="84dp"
+        android:fontFamily="@font/light"
+        android:textColor="@color/negro"
+        android:textSize="25sp"
+        android:alpha="0.8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.091" />
+
+    <Button
+        android:id="@+id/btnAnalisisGlu"
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:layout_x="107dp"
+        android:layout_y="430dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/semibold"
+        android:onClick="validarSintomas"
+        android:text="Analisis"
+        android:textAllCaps="false"
+        android:textColor="@color/blanco"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="611dp"/>
+
+    <RadioGroup
+        android:id="@+id/OpcionesSintomas"
+        android:layout_width="wrap_content"
+        android:layout_height="171dp"
+        android:layout_x="56dp"
+        android:layout_y="216dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonConSintomas"
+            android:layout_width="295dp"
+            android:layout_height="wrap_content"
+            android:text="El paciente padece de los siguientes síntomas (cuadro neurovegetativos, trastornos de conciencia, signos de deshidratación, sepsis, patologías agudas cardiovascular neurológica)"
+            android:fontFamily="@font/regular"
+            android:textColor="@color/negro"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonSinSintomas"
+            android:layout_width="295dp"
+            android:layout_height="wrap_content"
+            android:text="El paciente no presenta sintomas patologicos "
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/regular"
+            android:textColor="@color/negro"/>
+
+    </RadioGroup>
+
+</AbsoluteLayout>

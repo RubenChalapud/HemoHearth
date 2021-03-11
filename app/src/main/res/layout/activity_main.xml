@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="90"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnIniciar"
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:layout_x="107dp"
+        android:layout_y="464dp"
+        android:textAllCaps="false"
+        android:background="@drawable/button"
+        android:text="Iniciar"
+        android:textColor="@color/blanco"
+        android:textSize="25sp"
+        android:fontFamily="@font/semibold"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="451dp" />
+
+    <Button
+        android:id="@+id/btnConsultas"
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:layout_x="107dp"
+        android:layout_y="554dp"
+        android:textAllCaps="false"
+        android:background="@drawable/button"
+        android:text="Consultas"
+        android:textColor="@color/blanco"
+        android:textSize="25sp"
+        android:fontFamily="@font/semibold"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="84dp"
+        android:fontFamily="@font/light"
+        android:text="Bienvenido a:"
+        android:textColor="@color/negro"
+        android:textSize="30sp"
+        android:alpha="0.8"/>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="125dp"
+        android:fontFamily="@font/bold"
+        android:text="HemoHearth"
+        android:textColor="@color/negro"
+        android:textSize="40sp" />
+
+</AbsoluteLayout>

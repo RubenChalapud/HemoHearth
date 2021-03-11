@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityAutenticaInicio"
+    android:background="@drawable/back">
+
+    <TextView
+        android:id="@+id/textView001"
+        android:text="Autenticación:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="84dp"
+        android:fontFamily="@font/light"
+        android:textColor="@color/negro"
+        android:textSize="25sp"
+        android:alpha="0.8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.091" />
+
+    <TextView
+        android:id="@+id/textView0013"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="150dp"
+        android:text="E-mail:"
+        android:textSize="15sp"
+        android:fontFamily="@font/semibold"/>
+
+    <EditText
+        android:id="@+id/editTextAutIniCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="100dp"
+        android:layout_y="170dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <TextView
+        android:id="@+id/textView0014"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="230dp"
+        android:text="Contraseña:"
+        android:textSize="15sp"
+        android:fontFamily="@font/semibold"/>
+
+    <EditText
+        android:id="@+id/editTextAutIniContra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="100dp"
+        android:layout_y="250dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <Button
+        android:id="@+id/btnAutenInicio"
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:layout_x="107dp"
+        android:layout_y="464dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/semibold"
+        android:text="Ingresar"
+        android:textAllCaps="false"
+        android:textColor="@color/blanco"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="611dp" />
+
+    <Button
+        android:id="@+id/btnAutenRegistrar"
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:layout_x="107dp"
+        android:layout_y="554dp"
+        android:textAllCaps="false"
+        android:background="@drawable/button"
+        android:text="Registrarse"
+        android:textColor="@color/blanco"
+        android:textSize="25sp"
+        android:fontFamily="@font/semibold"/>
+
+</AbsoluteLayout>

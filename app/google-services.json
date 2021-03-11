@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "203822644936",
+    "firebase_url": "https://hemohearthdb.firebaseio.com",
+    "project_id": "hemohearthdb",
+    "storage_bucket": "hemohearthdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203822644936:android:84b9382b6f4e6bf16deffd",
+        "android_client_info": {
+          "package_name": "com.example.hemohearth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "203822644936-nk6n32c1rjlgqo3gk24sns4s5hoq0017.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hemohearth",
+            "certificate_hash": "3782c913aa6392fc6071986ff3e6c3bb841bd9f4"
+          }
+        },
+        {
+          "client_id": "203822644936-cn0fi4df17burr3j4ahbh7m2v0drleft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChwqjKSSFNxXyXYywJn5MWF9GXjYxNaJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "203822644936-cn0fi4df17burr3j4ahbh7m2v0drleft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

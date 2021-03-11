@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityExamenes"
+    android:background="@drawable/backgro">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:text="Nuestros Examenes:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="84dp"
+        android:fontFamily="@font/light"
+        android:textColor="@color/negro"
+        android:textSize="25sp"
+        android:alpha="0.8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.091"/>
+
+    <Button
+        android:id="@+id/btnExaGlucemia"
+        android:text="Examen de glucemia"
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:layout_x="107dp"
+        android:layout_y="307dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/semibold"
+        android:textAllCaps="false"
+        android:textColor="@color/blanco"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btnExaHemoglo"
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:layout_x="107dp"
+        android:layout_y="386dp"
+        android:text="Examen de hemoglobina"
+        android:background="@drawable/button"
+        android:fontFamily="@font/semibold"
+        android:textAllCaps="false"
+        android:textColor="@color/blanco"
+        android:textSize="18sp"/>
+</AbsoluteLayout>

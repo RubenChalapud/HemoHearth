@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityResConsulta"
+    android:background="@drawable/back">
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="84dp"
+        android:fontFamily="@font/light"
+        android:textColor="@color/negro"
+        android:textSize="25sp"
+        android:alpha="0.8"
+        android:text="Resultado:"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="150dp"
+        android:text="Nombre:"
+        android:textSize="15sp"
+        android:fontFamily="@font/semibold" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="190dp"
+        android:textSize="15sp"
+        android:fontFamily="@font/semibold"
+        android:text="Apellido:" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="230dp"
+        android:textSize="15sp"
+        android:fontFamily="@font/semibold"
+        android:text="Documento:" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="270dp"
+        android:textSize="15sp"
+        android:fontFamily="@font/semibold"
+        android:text="Eps:" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="310dp"
+        android:textSize="15sp"
+        android:fontFamily="@font/semibold"
+        android:text="Correo:" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="350dp"
+        android:fontFamily="@font/semibold"
+        android:text="Patologías diabéticas:"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="410dp"
+        android:textSize="15sp"
+        android:fontFamily="@font/semibold"
+        android:text="Tipo patología:" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="450dp"
+        android:textSize="15sp"
+        android:fontFamily="@font/semibold"
+        android:text="Presenta Anemia:" />
+
+    <TextView
+        android:id="@+id/textViewResNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="185dp"
+        android:layout_y="150dp"
+        android:text="TextView"
+        android:fontFamily="@font/regular"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/textViewResAne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="185dp"
+        android:layout_y="450dp"
+        android:text="TextView"
+        android:fontFamily="@font/regular"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/textViewResTipPat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="185dp"
+        android:layout_y="410dp"
+        android:text="TextView"
+        android:fontFamily="@font/regular"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/textViewResPatDia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="185dp"
+        android:layout_y="360dp"
+        android:text="TextView"
+        android:fontFamily="@font/regular"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/textViewResApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="185dp"
+        android:layout_y="190dp"
+        android:text="TextView"
+        android:fontFamily="@font/regular"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/textViewResDoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="186dp"
+        android:layout_y="230dp"
+        android:text="TextView"
+        android:fontFamily="@font/regular"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/textViewResEps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="185dp"
+        android:layout_y="270dp"
+        android:text="TextView"
+        android:fontFamily="@font/regular"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/textViewResCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="185dp"
+        android:layout_y="310dp"
+        android:text="TextView"
+        android:fontFamily="@font/regular"
+        android:textSize="15sp"/>
+</AbsoluteLayout>
